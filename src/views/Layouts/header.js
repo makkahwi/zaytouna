@@ -1,13 +1,12 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import { useTranslation } from "react-i18next";
 import { Link } from 'react-router-dom';
-import LogoAr from '../../images/LogoArW.png';
-import LogoEn from '../../images/logoEnW.png';
+import LogoAr from '../../assets/images/LogoArW.png';
+import LogoEn from '../../assets/images/logoEnW.png';
 import ScrollspyNav from './Scrollspy';
 
 function Header() {
 
-    const [tab, setTab] = useState('')
     const [isOpen, setIsOpen] = useState(false)
     const { t, i18n } = useTranslation();
     const [logo, setLogo] = useState(LogoEn)
@@ -16,16 +15,6 @@ function Header() {
         i18n.dir() === 'ltr' ? setLogo(LogoEn) : setLogo(LogoAr)
     }, [t, i18n])
 
-    const toggleMenu = () => {
-        setIsOpen(!isOpen);
-    }
-    /**
-     * Sets active tab
-     */
-    const setActiveTab = (tab, e) => {
-        setTab(tab);
-    }
-
     const languageChange = () => {
         if (i18n.language === "en") {
             i18n.changeLanguage("ar");
@@ -33,8 +22,6 @@ function Header() {
             i18n.changeLanguage("en");
         }
     };
-
-    const handleClick = () => console.log("lang change")
 
     return (
         <Fragment>

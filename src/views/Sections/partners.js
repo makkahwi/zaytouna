@@ -2,10 +2,10 @@
 import React, { Fragment } from 'react';
 import { useTranslation } from "react-i18next";
 import { Col, Row } from 'reactstrap';
-import img1 from '../../images/clients/1.png';
-import img2 from '../../images/clients/2.png';
-import img3 from '../../images/clients/3.png';
-import img4 from '../../images/clients/4.png';
+import img1 from '../../assets/images/clients/1.png';
+import img2 from '../../assets/images/clients/2.png';
+import img3 from '../../assets/images/clients/3.png';
+import img4 from '../../assets/images/clients/4.png';
 
 function Partners() {
     const { t } = useTranslation();

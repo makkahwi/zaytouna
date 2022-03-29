@@ -1,8 +1,8 @@
 
 import React, { Fragment, useEffect, useState } from 'react';
 import { useTranslation } from "react-i18next";
-import LogoAr from '../../images/LogoAr.png';
-import LogoEn from '../../images/logoEn.png';
+import LogoAr from '../../assets/images/LogoAr.png';
+import LogoEn from '../../assets/images/logoEn.png';
 
 
 function Intro() {

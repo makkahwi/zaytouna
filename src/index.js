@@ -5,7 +5,7 @@ import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from 'react-router-dom';
 
 import "./i18next";
-import './css/bootstrap.min.css';
+import './assets/css/bootstrap.min.css';
 
 const loading = (
     <div class="spinner-grow text-primary" role="status">

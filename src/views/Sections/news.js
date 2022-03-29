@@ -2,7 +2,7 @@
 import React, { Fragment } from 'react';
 import { useTranslation } from "react-i18next";
 import { Link } from 'react-router-dom';
-import img3 from '../../images/blog/img-3.jpg';
+import img3 from '../../assets/images/blog/img-3.jpg';
 
 
 function News() {

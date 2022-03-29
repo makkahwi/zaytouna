@@ -3,13 +3,13 @@ import { Route, Switch, BrowserRouter as Router, withRouter } from 'react-router
 import { useTranslation } from "react-i18next";
 
 // Import css
-import './css/pe-icon-7-stroke.css';
-import './css/materialdesignicons.min.css';
-import './css/waves.css';
-import './css/bootstrap.min.css';
-import './css/magnific-popup.css';
-import './css/style.css';
-import './css/colors/red.css';
+import './assets/css/pe-icon-7-stroke.css';
+import './assets/css/materialdesignicons.min.css';
+import './assets/css/waves.css';
+import './assets/css/bootstrap.min.css';
+import './assets/css/magnific-popup.css';
+import './assets/css/style.css';
+import './assets/css/colors/red.css';
 
 const loading = (
   <div class="spinner-grow text-primary" role="status">
@@ -17,7 +17,7 @@ const loading = (
   </div>
 );
 
-const Index = React.lazy(() => import('./pages/index'));
+const Index = React.lazy(() => import('./views/index'));
 
 function App() {
   const { i18n } = useTranslation();

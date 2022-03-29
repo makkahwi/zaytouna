@@ -2,10 +2,10 @@ import React, { Fragment, useEffect, useState } from 'react';
 import { useTranslation } from "react-i18next";
 
 //Layout css
-import '../css/colors/red.css';
-import Wave1Img from '../images/wave-shape/wave1.png';
-import Wave2Img from '../images/wave-shape/wave2.png';
-import Wave3Img from '../images/wave-shape/wave3.png';
+import '../assets/css/colors/red.css';
+import Wave1Img from '../assets/images/wave-shape/wave1.png';
+import Wave2Img from '../assets/images/wave-shape/wave2.png';
+import Wave3Img from '../assets/images/wave-shape/wave3.png';
 
 // Layouts
 import FooterAlt from './Layouts/footer-alt';

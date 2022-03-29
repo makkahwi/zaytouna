@@ -19,15 +19,20 @@ function News() {
                             <p className="section-subtitle text-muted text-center font-secondary padding-t-30">{t("Follow our social media pages for latest works & activities")}</p>
                         </div>
                     </div>
-                    <div className="row margin-t-30">
-                        <div className="col-lg-6">
-                            <div className="blog-box margin-t-30">
-                                <iframe src="https://www.youtube.com/embed?listType=user_uploads&list=YOUR_CHANNEL_NAME_HERE" width="100%" height="300px"></iframe>
+                    <div className="row margin-t-30" style={{ fontSize: "20vh" }} >
+                        <div className="col-lg-4">
+                            <div className="blog-box margin-t-30 text-center" >
+                                <a target="_blank" href="https://facebook.com/AlzaytounaClub"><i className="mdi mdi-facebook"></i></a>
                             </div>
                         </div>
-                        <div className="col-lg-6">
-                            <div className="blog-box margin-t-30">
-                                <iframe src="https://www.youtube.com/embed?listType=user_uploads&list=YOUR_CHANNEL_NAME_HERE" width="100%" height="300px"></iframe>
+                        <div className="col-lg-4">
+                            <div className="blog-box margin-t-30 text-center" >
+                                <a target="_blank" href="https://www.instagram.com/zaytounaclub"><i className="mdi mdi-instagram text-warning"></i></a>
+                            </div>
+                        </div>
+                        <div className="col-lg-4">
+                            <div className="blog-box margin-t-30 text-center">
+                                <a target="_blank" href="https://www.youtube.com/channel/UC-ymAKgtbmumecjBHTdnzZQ"><i className="mdi mdi-youtube text-danger"></i></a>
                             </div>
                         </div>
                     </div>

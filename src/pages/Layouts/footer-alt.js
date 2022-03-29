@@ -17,6 +17,7 @@ function FooterAlt() {
                             <div className="float-right pull-none ">
                                 <ul className="list-inline social m-0">
                                     <li className="list-inline-item"><a target="_blank" href="https://facebook.com/AlzaytounaClub" className="social-icon"><i className="mdi mdi-facebook"></i></a></li>
+                                    <li className="list-inline-item"><a target="_blank" href="https://www.instagram.com/zaytounaclub" className="social-icon"><i className="mdi mdi-instagram"></i></a></li>
                                     <li className="list-inline-item"><a target="_blank" href="https://www.youtube.com/channel/UC-ymAKgtbmumecjBHTdnzZQ" className="social-icon"><i className="mdi mdi-youtube"></i></a></li>
                                 </ul>
                             </div>

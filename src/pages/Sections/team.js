@@ -28,7 +28,7 @@ function Team() {
                                         <img alt="" src={img1} className="img-fluid rounded" />
                                     </div>
                                 </div>
-                                <h4 className="team-name">Frank Johnson</h4>
+                                <h4 className="team-name">{t("Julia Johnson")}</h4>
                                 <p className="text-uppercase team-designation">{t("CEO")}</p>
                             </div>
                         </div>
@@ -40,7 +40,7 @@ function Team() {
                                         <img alt="" src={img2} className="img-fluid rounded" />
                                     </div>
                                 </div>
-                                <h4 className="team-name">Elaine Stclair</h4>
+                                <h4 className="team-name">{t("Elaine Stclair")}</h4>
                                 <p className="text-uppercase team-designation">{t("Administrative Affairs")}</p>
                             </div>
                         </div>
@@ -52,7 +52,7 @@ function Team() {
                                         <img alt="" src={img3} className="img-fluid rounded" />
                                     </div>
                                 </div>
-                                <h4 className="team-name">Wanda Arthur</h4>
+                                <h4 className="team-name">{t("Wanda Arthur")}</h4>
                                 <p className="text-uppercase team-designation">{t("Public Relations")}</p>
                             </div>
                         </div>
@@ -64,7 +64,7 @@ function Team() {
                                         <img alt="" src={img4} className="img-fluid rounded" />
                                     </div>
                                 </div>
-                                <h4 className="team-name">Joshua Stemple</h4>
+                                <h4 className="team-name">{t("Angelina Stemple")}</h4>
                                 <p className="text-uppercase team-designation">{t("Activities Manager")}</p>
                             </div>
                         </div>

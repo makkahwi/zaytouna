@@ -41,7 +41,7 @@ function Header() {
             <div id="is-sticky">
                 <nav className="navbar navbar-expand-lg fixed-top navbar-custom sticky" id="nav-bar">
                     <div className="container">
-                        <Link className="navbar-brand logo text-uppercase" to="/" style={{ width: "50%" }}>
+                        <Link className="navbar-brand logo text-uppercase" to="/" style={{ width: "25%" }}>
                             <img src={logo} alt="macbook" className="img-fluid" />
                         </Link>
 
